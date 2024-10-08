@@ -51,7 +51,6 @@ class TaskDetailActivity : AppCompatActivity() {
             finish() // Finaliza la actividad actual
         }
 
-        // Configurar el botón de guardar para actualizar la tarea
         findViewById<Button>(R.id.saveButton).setOnClickListener {
             updateTaskDetails()
         }
@@ -76,8 +75,9 @@ class TaskDetailActivity : AppCompatActivity() {
         task.image?.let { image ->
             Glide.with(this)
                 .load(image)
+                .placeholder(R.drawable.placeholder)
+                .error(R.drawable.error_image)
                 .into(taskImageView)
-                .onLoadFailed(null)
         }
     }
 

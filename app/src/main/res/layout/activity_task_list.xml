@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- ListView para mostrar la lista de tareas -->
     <ListView
         android:id="@+id/taskListView"
         android:layout_width="match_parent"
@@ -12,9 +11,8 @@
         android:clipToPadding="false"
         android:scrollbars="vertical"
         android:background="#80BABCFF"
-        android:textColor="#FFFFF"/>
+        android:textColor="#FFFFFF"/>
 
-    <!-- Botón flotante para agregar una nueva tarea -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addTaskButton"
         android:layout_width="wrap_content"
