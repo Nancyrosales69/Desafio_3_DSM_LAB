@@ -11,7 +11,8 @@
         android:padding="8dp"
         android:clipToPadding="false"
         android:scrollbars="vertical"
-        android:background="@android:color/white" />
+        android:background="#80BABCFF"
+        android:textColor="#FFFFFF"/>
 
     <!-- Botón flotante para agregar una nueva tarea -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton

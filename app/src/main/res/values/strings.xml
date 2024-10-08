@@ -1,6 +1,6 @@
 <resources>
     <!-- Cadenas de texto generales -->
-    <string name="app_name">Gestión de Tareas</string>
+    <string name="app_name">Recursos bibliograficos</string>
     <string name="task_list_title">Lista de Tareas</string>
     <string name="task_detail_title">Detalles del Recurso</string>
 
